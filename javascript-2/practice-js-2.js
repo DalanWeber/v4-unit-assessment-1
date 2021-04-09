@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = 'A terminal  used to interface with files and folders via text commands'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = 'A cloud based repository system that allows us to copy and push our code to repositories in the cloud'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+    let init = {
+    description: 'initilizes github in your current directory',
+    code: 'git init',
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,11 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+
+let clone = {
+    description: 'clones a repository from github using the URL',
+    code: 'git clone [GITHUB URL]',
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +56,11 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+
+let status = {
+    description: 'shows the status of any changes made to the repository on the local machine',
+    code: 'git status',
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +68,11 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+
+let add = {
+    description: 'adds any changes made to be pushed to the repository',
+    code: 'git add',
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +80,11 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+
+let commit = {
+    description: 'commits changes made to be pushed to the repository',
+    code: 'git commit -m""',
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +92,11 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+
+let addRemote = {
+    description: 'tells github where to send the changes made via a URL(i think)',
+    code: 'git remote add origin master',
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +104,8 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+
+let push = {
+    description: 'pushes commits to the repository',
+    code: 'git push',
+}

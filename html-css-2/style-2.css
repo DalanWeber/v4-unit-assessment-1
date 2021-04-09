@@ -1,0 +1,176 @@
+/* <div class='makinshapes'></div>
+<div class='rectangletext'></div>
+<div class='squares'></div>
+<div class='circlestext'></div>
+<div class='snowman'></div>
+<div class='everything'></div>
+<div class='shapes'></div> */
+body {
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.makinshapes{
+    width: 100%;
+    height: 80px;
+    background-color: skyblue;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.rectangletext{
+    padding-left: 15px;
+}
+
+.squares{
+    width: 100% -5px;
+    height: 225px;
+    margin: 10px 10px 10px 10px;
+    border: dashed black 1px;
+    box-sizing: border-box;
+    padding: px;
+}
+.navy{
+    border: solid red 3px;
+    background-color: navy;
+    height: 90px;
+    width: 25%;
+    display: inline-block;
+    margin: 10px;
+}
+.royal{
+    border: solid black 1px;
+    background-color: royalblue;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    margin: 10px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.pink{
+    border: solid black 1px;
+    background-color:pink;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.circlestext{
+    padding-left: 15px;
+}
+
+.snowman{
+    width: 100% -5px;
+    height: 475px;
+    margin: 10px 10px 10px 10px;
+    border: dashed black 1px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.head{
+    border: solid black 1px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.eyes{
+    border: solid black 1px;
+    height: 10px;
+    width: 10px;
+    margin-top: 25px; 
+    margin-left: 30px;
+    border-radius: 50%;
+    display: inline;
+    align-items: center;
+}
+
+.torso{
+    border: solid black 1px;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.buttons{
+    border: solid black 1px;
+    background-color: black;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.bottom{
+    border: solid black 1px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.everything{
+    padding-left: 15px;
+}
+
+.shapes{
+    width: 100% -5px;
+    height: 275px;
+    margin: 10px 10px 10px 10px;
+    border: dashed black 1px;
+    box-sizing: border-box;
+}
+
+.yellow{
+    border: solid black 1px;
+    background-color: navajowhite;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.green{
+    border: solid black 1px;
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    background-color: olivedrab;
+    padding: 33px;
+    box-sizing: border-box;
+}
+
+.brown{
+    border: solid black 1px;
+    background-color:brown;
+    height: 150px;
+    width: 150px;
+}
+
+.fishbowl{
+    border: solid black 1px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: cornflowerblue;
+}
+
+.fish{
+    height: 14px;
+    width: 30px;
+    background-color: orange;
+    margin: 35px;
+}
